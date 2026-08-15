@@ -62,6 +62,14 @@ The proposed evaluation framework considers more than model accuracy. It include
 
 The paper discusses metrics such as AUROC and RMSE as examples of technical evaluation measures and emphasises the need for real-world clinical evidence before deployment.
 
+## Documentation
+
+- [Research summary](docs/research-summary.md)
+- [System architecture](docs/architecture.md)
+- [Cardiovascular use cases](docs/use-cases.md)
+- [Evaluation and governance](docs/evaluation-and-governance.md)
+- [Limitations and future work](docs/limitations-and-future-work.md)
+
 ## Governance and responsible use
 
 Healthcare digital twins involve highly sensitive information and require strong governance. The paper discusses privacy-by-design, pseudonymisation, access controls, audit trails, encryption, model monitoring, explainability, bias assessment, and clinician override mechanisms. It also considers relevant NHS and UK frameworks, including FHIR interoperability, UK GDPR, MHRA SaMD/AIaMD guidance, and the NICE Evidence Standards Framework.
@@ -76,8 +84,6 @@ Fawaz Ahmed Dar, Iman Muhammad Asif, Irfan Ahmed
 DOI: https://doi.org/10.1109/imcom69009.2026.11360793
 
 ## Citation
-
-If you refer to this work in academic or professional writing, please cite the published paper:
 
 ```bibtex
 @inproceedings{dar2026digitaltwin,
